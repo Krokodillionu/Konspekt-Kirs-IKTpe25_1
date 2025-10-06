@@ -235,6 +235,12 @@ else if (valik == "kast")
         double kogupindala = 2 * ((pikkkülg * lühikekülg) + (lühikekülg * kõrgus) * (pikkkülg * kõrgus));
         double diagonaal = Math.Sqrt((pikkkülg * pikkkülg) + (lühikekülg * lühikekülg) + (kõrgus * kõrgus));
         Console.WriteLine($" Sinu kast mahutab {V} kasti külgpindala on {kogupindala}Diagonaal aga on {diagonaal}");
+        //string string = "abc"; //ei sobi
+
+        // muutuja nimeks ei sobi järgmised sõnad:
+        //abstract, as, base, bool, break, byte, case, catch, char, checked, class, const, continue, decimal, default, delegate, do, double, else, volatile, while, ulong, unchecked, unsafe
+        //ushort, using, virtual, void, switch, this, throw, true, try, typeof, uint, sealed, short, sizeof, stackalloc, static, string, struct, private, protected, public, readonly, ref, return, sbyte,
+        // null, object, operator, out, override, params, interface, internal, is, lock, long, namespace, new
     }
 }
 
