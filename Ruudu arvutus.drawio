@@ -1,6 +1,6 @@
 <mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/28.2.5 Chrome/138.0.7204.251 Electron/37.6.1 Safari/537.36" version="28.2.5">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
-    <mxGraphModel dx="784" dy="1192" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="784" dy="2361" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
@@ -13,26 +13,24 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="cY2-r-04Y-tzUWJ-VCKW-0" value="Kas ruudu suurus on väiksem kui 0?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="210" y="130" width="220" height="120" as="geometry" />
+          <mxGeometry x="205" y="130" width="220" height="120" as="geometry" />
         </mxCell>
         <mxCell id="cY2-r-04Y-tzUWJ-VCKW-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="cY2-r-04Y-tzUWJ-VCKW-1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="550" y="20" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="cY2-r-04Y-tzUWJ-VCKW-7" value="Ei" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="cY2-r-04Y-tzUWJ-VCKW-4">
-          <mxGeometry x="-0.1705" relative="1" as="geometry">
-            <mxPoint as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="cY2-r-04Y-tzUWJ-VCKW-8" value="Ei" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="cY2-r-04Y-tzUWJ-VCKW-4">
-          <mxGeometry x="0.5874" y="-4" relative="1" as="geometry">
+        <mxCell id="cY2-r-04Y-tzUWJ-VCKW-47" value="Ei" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="cY2-r-04Y-tzUWJ-VCKW-4">
+          <mxGeometry x="-0.8583" y="1" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="cY2-r-04Y-tzUWJ-VCKW-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="cY2-r-04Y-tzUWJ-VCKW-1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="320" y="585" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="315" y="585" />
+            </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="cY2-r-04Y-tzUWJ-VCKW-15" value="Jah" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="cY2-r-04Y-tzUWJ-VCKW-10">
@@ -41,12 +39,17 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="cY2-r-04Y-tzUWJ-VCKW-1" value="Kas ruudu suurus on suurem kui 20?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="170" y="350" width="300" height="130" as="geometry" />
+          <mxGeometry x="165" y="350" width="300" height="130" as="geometry" />
         </mxCell>
         <mxCell id="cY2-r-04Y-tzUWJ-VCKW-5" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="430" y="190" as="sourcePoint" />
             <mxPoint x="550" y="190" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cY2-r-04Y-tzUWJ-VCKW-46" value="Ei" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="cY2-r-04Y-tzUWJ-VCKW-5">
+          <mxGeometry x="-0.25" relative="1" as="geometry">
+            <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="cY2-r-04Y-tzUWJ-VCKW-18" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="cY2-r-04Y-tzUWJ-VCKW-16" target="cY2-r-04Y-tzUWJ-VCKW-17">
@@ -57,11 +60,19 @@
         </mxCell>
         <mxCell id="cY2-r-04Y-tzUWJ-VCKW-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="cY2-r-04Y-tzUWJ-VCKW-17">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="550" y="410" as="targetPoint" />
+            <mxPoint x="550" y="-50" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="550" y="768" />
+            </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="cY2-r-04Y-tzUWJ-VCKW-20" value="Ei" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="cY2-r-04Y-tzUWJ-VCKW-19">
           <mxGeometry x="-0.7372" y="3" relative="1" as="geometry">
+            <mxPoint y="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cY2-r-04Y-tzUWJ-VCKW-29" value="Text" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="cY2-r-04Y-tzUWJ-VCKW-19">
+          <mxGeometry x="0.8802" y="-1" relative="1" as="geometry">
             <mxPoint y="1" as="offset" />
           </mxGeometry>
         </mxCell>
@@ -75,7 +86,7 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="cY2-r-04Y-tzUWJ-VCKW-17" value="Kas kasutaja on sisestanud oma ruudu admed?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="cY2-r-04Y-tzUWJ-VCKW-17" value="Kas kasutaja on sisestanud oma ruudu andmed?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="250" y="715" width="140" height="105" as="geometry" />
         </mxCell>
         <mxCell id="cY2-r-04Y-tzUWJ-VCKW-25" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="cY2-r-04Y-tzUWJ-VCKW-23">
@@ -92,8 +103,41 @@
         <mxCell id="cY2-r-04Y-tzUWJ-VCKW-26" value="Kuva kasutajale saadud arvu summa" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="220" y="1070" width="190" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="cY2-r-04Y-tzUWJ-VCKW-27" value="" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="cY2-r-04Y-tzUWJ-VCKW-27" value="Lõpp" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="255" y="1210" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="cY2-r-04Y-tzUWJ-VCKW-32" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="cY2-r-04Y-tzUWJ-VCKW-30" target="cY2-r-04Y-tzUWJ-VCKW-31">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cY2-r-04Y-tzUWJ-VCKW-30" value="Algus" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="255" y="-250" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="cY2-r-04Y-tzUWJ-VCKW-34" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="cY2-r-04Y-tzUWJ-VCKW-31" target="cY2-r-04Y-tzUWJ-VCKW-33">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cY2-r-04Y-tzUWJ-VCKW-31" value="Kuva kasutajale tekst:&lt;div&gt;&quot;Palun sisesta oma nimi&quot;&lt;/div&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="255" y="-120" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="cY2-r-04Y-tzUWJ-VCKW-38" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="cY2-r-04Y-tzUWJ-VCKW-33" target="cY2-r-04Y-tzUWJ-VCKW-0">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cY2-r-04Y-tzUWJ-VCKW-40" value="Jah" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="cY2-r-04Y-tzUWJ-VCKW-38">
+          <mxGeometry x="-0.1429" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cY2-r-04Y-tzUWJ-VCKW-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="cY2-r-04Y-tzUWJ-VCKW-33">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="550" y="15" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cY2-r-04Y-tzUWJ-VCKW-41" value="Ei" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="cY2-r-04Y-tzUWJ-VCKW-39">
+          <mxGeometry x="-0.0333" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cY2-r-04Y-tzUWJ-VCKW-33" value="Kas kasutaja on sisestanud oma nime?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="260" y="-30" width="110" height="90" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
