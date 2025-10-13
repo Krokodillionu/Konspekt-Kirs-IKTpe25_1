@@ -242,6 +242,71 @@ else if (valik == "kast")
         //ushort, using, virtual, void, switch, this, throw, true, try, typeof, uint, sealed, short, sizeof, stackalloc, static, string, struct, private, protected, public, readonly, ref, return, sbyte,
         // null, object, operator, out, override, params, interface, internal, is, lock, long, namespace, new
     }
+    //Console.WriteLine("Palun sisesta oma kasutajanimi");
+    //string kasutajanimi = "";
+    //do
+    //{
+    //    kasutajanimi = Console.ReadLine();
+    //}
+    //while (kasutajanimi != "user1");
+    //if (kasutajanimi == "user1")
+    //{
+    //    int ruuduSuurus = 0;
+    //    do
+    //    {
+
+    //        Console.WriteLine("Kui suurt ruutu tahad?");
+    //        ruuduSuurus = int.Parse(Console.ReadLine());
+    //    } while (ruuduSuurus < 0 && ruuduSuurus > 20);
+
+    //    char reaKujund = '1';
+    //    string üksRida = "";
+    //    int tsükliMuutuja = ruuduSuurus;
+    //    do
+    //    {
+    //        üksRida += reaKujund;
+    //    } while (tsükliMuutuja != 0);
+    //    tsükliMuutuja = ruuduSuurus;
+    //    do
+    //    {
+    //        Console.WriteLine(üksRida);
+    //        tsükliMuutuja -= 1;
+    //    } while (tsükliMuutuja != 0);
+    //    Console.WriteLine($"Palun, siin on sinu ruut, suurusega {ruuduSuurus} x {ruuduSuurus}");
+    //}
+    if (true) { } //kaitstud sõna if kutsub esile tingimuslause, mille tingimus on sulgude vahel ning millele järgneb
+    //koodiplokk tingimuse täitumisel teostatava koodiga
+    else if (true) { } //kaitstud sõnad else ja if kutsuvad esile sekundaarse tingimuslause, mille tingimus
+    //on samamoodi sulgude vahel, ning millele peab eelnema alati if või else if. Tingimuse täitumisel
+    //ja eelneva tingimuse mittetäitumisel teostatakse koodiploki sees olev kood
+    else { } //kaitstud sõna else kutsub esile järeltingimuse, millele peab eelnema kas if või else if, ning mille koodi-
+             //ploki sisu täidektakse kõikide if ja else if sees olevate tingimuste läbikukkumisel
+
+    /* Loogilised tehted */
+    // && -> loogiline tehe, mida kasutatakse tingimuste kirjutamisel, ja mis annab positiivse vastuse (true) juhul kui
+    // mõlemal pool && märki olevad tingimused täidetud. Kui üks neist pole, siis annab negatiivse vastuse (false)
+    // || -> loogiline tehe, mida kasutatakse tingimuste kirjutamisel, ning mis annab positiivse vastuse (true) siis kui
+    // vähemalt üks tingimus on täidetud, negatiivne vastus (false) tagatakse siis, kui kõik tingimused on täitmata.
+
+    /* Võrdlusoperaatorid*/
+    // == -> on võrdne. Võrdusmärkide ühel pool olev objekt peab vastama täpselt oma olemuselt võrdusmärkide teisel pool oleva objektiga, ei ole sama nagu üks võrdusmärk.
+    // üks võrdusmark omistab, teine võrdleb.
+    //!= -> ei ole võrdne. Võrdusmärgi ühel pool olev objekt *EI TOHI* olla samal kujul nagu teisel pool olev objekt
+    /* Omistusoperaatorid ja kiirtehted */
+    int arv = 1; // = -> üksik võrdusmärk omistab muutujale väärtuse
+    arv += 1; // += -> võrdusmärk, mille ees on plus, automaatselt liidab muutujale otsa võrdusmärgi teisel pool oleva arvu
+    // asendab tehet "arv = arv + 1"
+    arv -= 1; // -= -> võrdusmärk mille ees on miinus, automaatselt lahutab muutujast maha võrdusmärgi teisel pool oleva väärtuse
+    // asendab tehet "arv = arv - 1"
+    arv *= 2; // võrdusmärk mille ees on korrutusmärk *. automaatselt korrutab muutuja sisu võrdusmärgi teisel pool oleva arvu kordi
+    // asendab tehet "arv = arv * 2"
+    arv /= 2; // võrdusmärk, mille ees on jagamismärk /. automaatselt jagab muutuja sisu võrdusmärgi teisel pool oleva arvu osadeks. asendab tehet "arv = arv / 2"
+    /* Tsüklid */
+    do // "do on kaitstud sõna, mis alustab do-while tsüklit pärast mida on koodiplokk, nint ütleb et tee seda koodi
+    {
+
+    } while (true); //niikaua kuni while järel olevate sulgude vahel olev tingimus on täidetud
+            }
 }
 
 
