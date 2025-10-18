@@ -288,7 +288,7 @@ else if (valik == "kast")
     // || -> loogiline tehe, mida kasutatakse tingimuste kirjutamisel, ning mis annab positiivse vastuse (true) siis kui
     // vähemalt üks tingimus on täidetud, negatiivne vastus (false) tagatakse siis, kui kõik tingimused on täitmata.
 
-    /* Võrdlusoperaatorid*/
+    /* Võrdlusoperaatorid*/ 
     // == -> on võrdne. Võrdusmärkide ühel pool olev objekt peab vastama täpselt oma olemuselt võrdusmärkide teisel pool oleva objektiga, ei ole sama nagu üks võrdusmärk.
     // üks võrdusmark omistab, teine võrdleb.
     //!= -> ei ole võrdne. Võrdusmärgi ühel pool olev objekt *EI TOHI* olla samal kujul nagu teisel pool olev objekt
@@ -307,7 +307,7 @@ else if (valik == "kast")
 
     } while (true); //niikaua kuni while järel olevate sulgude vahel olev tingimus on täidetud
             }
-}
+
 
 
 
