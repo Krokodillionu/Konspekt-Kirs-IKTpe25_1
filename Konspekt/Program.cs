@@ -306,7 +306,10 @@ else if (valik == "kast")
     {
 
     } while (true); //niikaua kuni while järel olevate sulgude vahel olev tingimus on täidetud
-            
+                    //2. While
+                    // on kaitstud sõna, mis alustab while tsükli varianti, ilma "do"-ta, ning ta vajab välist tsüklit
+    string alfa = "a\nb"; // \n tekitab ühe sõna sisse reamurde, sõna kus on üks "\n" omab kahte rida
+    string beta = $"{alfa}";  // $ -> lubab kasutada muutujaid loogiliste sulgude vahel otse teksti sees
 }
 
 
