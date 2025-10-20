@@ -306,8 +306,9 @@ else if (valik == "kast")
     {
 
     } while (true); //niikaua kuni while järel olevate sulgude vahel olev tingimus on täidetud
-            }
+            
 }
+
 
 
 
