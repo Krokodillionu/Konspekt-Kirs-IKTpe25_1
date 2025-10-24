@@ -1,0 +1,91 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/28.2.5 Chrome/138.0.7204.251 Electron/37.6.1 Safari/537.36" version="28.2.5">
+  <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
+    <mxGraphModel dx="784" dy="1185" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
+        <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
+        <mxCell id="7wMHticngGBa_UK11pjP-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="7wMHticngGBa_UK11pjP-0" target="7wMHticngGBa_UK11pjP-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7wMHticngGBa_UK11pjP-0" value="algus" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="290" y="20" width="180" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="7wMHticngGBa_UK11pjP-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="7wMHticngGBa_UK11pjP-4" target="7wMHticngGBa_UK11pjP-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7wMHticngGBa_UK11pjP-4" value="Kuva kasutajale tekst&lt;div&gt;&quot;Palun sisesta oma kasutajanimi&quot;&lt;/div&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="275" y="210" width="210" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="7wMHticngGBa_UK11pjP-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="7wMHticngGBa_UK11pjP-7" target="7wMHticngGBa_UK11pjP-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7wMHticngGBa_UK11pjP-7" value="Oota, kuniks kasutaja sisestab oma&lt;div&gt;kasutajanime&lt;/div&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="280" y="380" width="200" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="7wMHticngGBa_UK11pjP-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="7wMHticngGBa_UK11pjP-9" target="7wMHticngGBa_UK11pjP-7">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="630" y="610" />
+              <mxPoint x="630" y="435" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7wMHticngGBa_UK11pjP-12" value="Ei" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="7wMHticngGBa_UK11pjP-11">
+          <mxGeometry x="-0.8309" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7wMHticngGBa_UK11pjP-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="7wMHticngGBa_UK11pjP-9" target="7wMHticngGBa_UK11pjP-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7wMHticngGBa_UK11pjP-15" value="Jah" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="7wMHticngGBa_UK11pjP-14">
+          <mxGeometry x="-0.1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7wMHticngGBa_UK11pjP-9" value="Kas kasutaja on sisestanud oma kasutajanime?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="280" y="530" width="200" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="7wMHticngGBa_UK11pjP-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="7wMHticngGBa_UK11pjP-13" target="7wMHticngGBa_UK11pjP-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7wMHticngGBa_UK11pjP-13" value="Kuva kasutajale tekst&lt;div&gt;&quot;Kui suurt ruutu tahad?&quot;&lt;/div&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="280" y="750" width="200" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="7wMHticngGBa_UK11pjP-19" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="7wMHticngGBa_UK11pjP-16" target="7wMHticngGBa_UK11pjP-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7wMHticngGBa_UK11pjP-16" value="Oota, kuni kasutaja sisestab ruudu suuruse" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="275" y="890" width="210" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="7wMHticngGBa_UK11pjP-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="7wMHticngGBa_UK11pjP-18" target="7wMHticngGBa_UK11pjP-16">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="680" y="1125" />
+              <mxPoint x="680" y="945" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7wMHticngGBa_UK11pjP-21" value="Ei" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="7wMHticngGBa_UK11pjP-20">
+          <mxGeometry x="-0.8092" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7wMHticngGBa_UK11pjP-23" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="7wMHticngGBa_UK11pjP-18" target="7wMHticngGBa_UK11pjP-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7wMHticngGBa_UK11pjP-24" value="Jah" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="7wMHticngGBa_UK11pjP-23">
+          <mxGeometry x="-0.4087" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7wMHticngGBa_UK11pjP-18" value="Kas kasutaja on sisestanud ruudu suuruse?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="240" y="1060" width="280" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="7wMHticngGBa_UK11pjP-22" value="" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="250" y="1305" width="260" height="125" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
