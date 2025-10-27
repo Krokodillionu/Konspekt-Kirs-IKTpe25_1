@@ -306,7 +306,7 @@ else if (valik == "kast")
     {
 
     } while (true); //niikaua kuni while järel olevate sulgude vahel olev tingimus on täidetud
-<<<<<<< HEAD
+// HEAD
                     //2. While
                     // on kaitstud sõna, mis alustab while tsükli varianti, ilma "do"-ta, ning ta vajab välist tsüklit
     string alfa = "a\nb"; // \n tekitab ühe sõna sisse reamurde, sõna kus on üks "\n" omab kahte rida
@@ -327,12 +327,28 @@ else if (valik == "kast")
                               //// ; -> iga koodilause lõppeb komakooloniga
                               //// // -> kommentaaritingmärk üherealise kommentaari jaoks (kaks / märki)
 
+
+    // 3. for
+    int kogus = 6; // muutuja mida tsükkel kasutab töötamiseks mingisugusel kujul
+    for (int k = 0; k < kogus; k++) // kaitstud sõna "for" alustab for tsüklit, pärast mida on sulud, mille vahel on kõik tsükli töö
+                                    // jaoks vajalik info. esimene parameeter tekitab tsükli töö jaoks muutuja
+                                    // teine parameeter on tingimuslause, mis kontrollib tingimuse täitumist
+                                    // kolmas inkrementeerib tekitatud muutujat "k++;". pane tähele, et isa gulgude vahel
+                                    // oleva osa järel on lauselõpumärk. Tsükli tööd kontrolliv tingimuslause
+                                    // koosneb kolmest reast, mitte ühest nagu while või do-while puhul.
+                                    // koodiplokk, kus tehakse mingi tegevus
+                                    
+    {
+        Console.WriteLine(k); //antud juhul on tegevuseks muutuja "k" arvu väljakuvamine
+    }
+
+
     //int muutuja = 3;
     //// int -> muutuja nime ees olev andmetüübi kirjeldus. See näitab ära mis tüüpi andmed selle muutuja sees on
     //// = -> võrdusmärk omistab sellele muutujale mingisuguse väärtuse
     //// 3 -> väärtus mis sellele muutujale omistatakse
 
-    ////võimalikud andmetüübid:
+    ////võimalikud lihtandmetüübid:
     //int a = 1; // täisarv
     //decimal b = 2.0M; // kümnendsüsteemis olev komakohaga arv
     //float c = 3.0f; // kümnendsüsteemis olev ujukomaga arv
@@ -342,6 +358,19 @@ else if (valik == "kast")
     //var x = "abc"; // ebamäärase tüübiga kohalik muutuja. 
     //var y = 123;
     //const int z = 3; // konstant-tüüpi muutujaid ei saa muuta, need on read-only
+
+    // võimalikud komposiitandmetüübid
+    // [] -> masiiv on komposiitandmetüüp, mille sees saab olla mitu samat tüüpi lihtadnmetüüpi. Masiivi tähistatakse kantsulgudega
+    // massiive saab olla ükskõik millist lihtandmetüüpi massiive
+    // Esimene tekitusviis
+ int[] arvuMassiiv = new int[3]; // andmetüüp väljendab, et tegu on täisarvutüüpi andmega ja kantsulud väljendavad
+    // et tegu on ühtlasi ka masiiviga, nimeks on arvumassiiv
+    // masiivi tekitamisel tuleb ära öelda, kui pikk või suur see masiiv on
+    // Teine tekitusviis:
+    int[] arvumMassiiv2 = [1, 2, 3];
+    //teine massiivi tekitusviis, kus järjendi pikkuse sätestamise asemel, pannakse elemendid kohe sisse
+    // järjendi pikkus tuletatakse arvust
+   
 
     ////põhilised matemaatilised tehted
     //int liitmine = 1 + 1; // liitmine, kaks arvu kokku
@@ -436,11 +465,8 @@ else if (valik == "kast")
     //// lause lõppeb lauselõpumärgiga.
     //// https://github.com/Estlib/Konspekt_Jyri_Vaitmaa_IKTpe25/blob/main/Konspekt/Program.cs
 }
-=======
-            }
 
->>>>>>> d5015e5a32e32390903cc722c71952fdb5fb628a
-
+            
 
 
 
