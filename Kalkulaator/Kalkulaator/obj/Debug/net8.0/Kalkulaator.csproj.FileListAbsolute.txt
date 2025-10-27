@@ -1,0 +1,14 @@
+C:\Users\ilenn\source\repos\Kalkulaator\Kalkulaator\bin\Debug\net8.0\Kalkulaator.exe
+C:\Users\ilenn\source\repos\Kalkulaator\Kalkulaator\bin\Debug\net8.0\Kalkulaator.deps.json
+C:\Users\ilenn\source\repos\Kalkulaator\Kalkulaator\bin\Debug\net8.0\Kalkulaator.runtimeconfig.json
+C:\Users\ilenn\source\repos\Kalkulaator\Kalkulaator\bin\Debug\net8.0\Kalkulaator.dll
+C:\Users\ilenn\source\repos\Kalkulaator\Kalkulaator\bin\Debug\net8.0\Kalkulaator.pdb
+C:\Users\ilenn\source\repos\Kalkulaator\Kalkulaator\obj\Debug\net8.0\Kalkulaator.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ilenn\source\repos\Kalkulaator\Kalkulaator\obj\Debug\net8.0\Kalkulaator.AssemblyInfoInputs.cache
+C:\Users\ilenn\source\repos\Kalkulaator\Kalkulaator\obj\Debug\net8.0\Kalkulaator.AssemblyInfo.cs
+C:\Users\ilenn\source\repos\Kalkulaator\Kalkulaator\obj\Debug\net8.0\Kalkulaator.csproj.CoreCompileInputs.cache
+C:\Users\ilenn\source\repos\Kalkulaator\Kalkulaator\obj\Debug\net8.0\Kalkulaator.dll
+C:\Users\ilenn\source\repos\Kalkulaator\Kalkulaator\obj\Debug\net8.0\refint\Kalkulaator.dll
+C:\Users\ilenn\source\repos\Kalkulaator\Kalkulaator\obj\Debug\net8.0\Kalkulaator.pdb
+C:\Users\ilenn\source\repos\Kalkulaator\Kalkulaator\obj\Debug\net8.0\Kalkulaator.genruntimeconfig.cache
+C:\Users\ilenn\source\repos\Kalkulaator\Kalkulaator\obj\Debug\net8.0\ref\Kalkulaator.dll

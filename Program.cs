@@ -288,7 +288,7 @@ else if (valik == "kast")
     // || -> loogiline tehe, mida kasutatakse tingimuste kirjutamisel, ning mis annab positiivse vastuse (true) siis kui
     // vähemalt üks tingimus on täidetud, negatiivne vastus (false) tagatakse siis, kui kõik tingimused on täitmata.
 
-    /* Võrdlusoperaatorid*/ 
+    /* Võrdlusoperaatorid*/
     // == -> on võrdne. Võrdusmärkide ühel pool olev objekt peab vastama täpselt oma olemuselt võrdusmärkide teisel pool oleva objektiga, ei ole sama nagu üks võrdusmärk.
     // üks võrdusmark omistab, teine võrdleb.
     //!= -> ei ole võrdne. Võrdusmärgi ühel pool olev objekt *EI TOHI* olla samal kujul nagu teisel pool olev objekt
@@ -306,7 +306,6 @@ else if (valik == "kast")
     {
 
     } while (true); //niikaua kuni while järel olevate sulgude vahel olev tingimus on täidetud
-<<<<<<< HEAD
                     //2. While
                     // on kaitstud sõna, mis alustab while tsükli varianti, ilma "do"-ta, ning ta vajab välist tsüklit
     string alfa = "a\nb"; // \n tekitab ühe sõna sisse reamurde, sõna kus on üks "\n" omab kahte rida
@@ -436,10 +435,6 @@ else if (valik == "kast")
     //// lause lõppeb lauselõpumärgiga.
     //// https://github.com/Estlib/Konspekt_Jyri_Vaitmaa_IKTpe25/blob/main/Konspekt/Program.cs
 }
-=======
-            }
-
->>>>>>> d5015e5a32e32390903cc722c71952fdb5fb628a
 
 
 
