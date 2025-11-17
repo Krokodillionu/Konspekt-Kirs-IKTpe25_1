@@ -343,6 +343,19 @@ else if (valik == "kast")
     }
 
 
+    // 4. foreach
+    int[] arvuLoend = { 3, 89, 123412, 7, 67 }; // massiiv mida foreach tsükkel kasutab, või töötleb mingil kujul.
+    foreach (var arvInLoend in arvuLoend) // kaitstud sõna foreach alustab foreach tsükli. Pärast mida on sulud, mille vahel tekitatakse
+        // ajutine muutuja andmetüübiga "var" töödeldava andmekogumi üksikelemendi jaoks. Süntaksis olev kaitstud sõna
+        // "in" väljendab, et tsükkel käib selle loendi elementide kohta, ning var "arvInLoend"
+        // muutuja hoiab endas just peale sõna "in" oleva andmekogumi elementi. Tsüklil ei ole nähtavat tsüklimuutujat
+        // ega tingimust, tsükkel toimib niikaua kuni elemente jätkub ehk tsükli töö käib iga üksiku elemendi kohta andmekogumis.
+        // // Tsüklil ei ole vaja tsüklimuutujat, kuna talle on sisse ehitatud vaikimisi elemendi järjestuse jälgimine. Niipalju kui andmeid on, ongi see,
+        // mitu korda tsükkel käivitatakse
+    {  // {} koodiplokk, kus tehakse mingi tegevus
+        Console.WriteLine(arvInLoend);     // antud juhul kuvatakse välja ajutine muutuja, mille sees on loendi element.
+    }
+
     //int muutuja = 3;
     //// int -> muutuja nime ees olev andmetüübi kirjeldus. See näitab ära mis tüüpi andmed selle muutuja sees on
     //// = -> võrdusmärk omistab sellele muutujale mingisuguse väärtuse
@@ -370,7 +383,40 @@ else if (valik == "kast")
     int[] arvumMassiiv2 = [1, 2, 3];
     //teine massiivi tekitusviis, kus järjendi pikkuse sätestamise asemel, pannakse elemendid kohe sisse
     // järjendi pikkus tuletatakse arvust
-   
+
+    //2. loend:
+    // List<T> -> Loend on komposiitandmetüüp, mille sees saab olla mitmeid samat tüüpi liht ja komposiitandmeid. Loend-tüüpi andmeid tähistatakse
+    // Täiendava andmetüübikirjeldusega "List" mille järel noolsulgudesse asetatakse mis tüüpi andmed loendis on.
+    // Loendi tekitamisel, erinevalt massiivist, ei pea ütlema, kui pikk loend on. Loendisse saab dünaamiliselt elemente juurde 
+    // lisada, ehk tema pikkus ei ole fikseeritud. 
+    // Sarnaselt massiiviga, saab loend omada endas teisi loendeid.
+    // Esimene tekitusviis:
+    List<int> arvuNimekiri = new List<int>(); // Andmetüübi kirjeldus "List<>" näitab, et tegu on loendiga, List noolsulgude vahel on loendis
+                                              // olevate andmete andmetüüp, muutuja nimeks on "arvuNimekiri". Omistame sellesse muutujasse //kaitstud sõna "new" abil uue tühja täisarvuloendi loendi sätestusega "List<int>()".
+
+    // teine tekitusviis:
+    List<int> arvuNimekiri2 = new List<int>() { 1, 2, 3 }; // teine loendi tekitusviis, muutuja instantsieerimine võrdusmärgi ees on sama nagu esimesel, juurde
+                                                           // tuleb ainult võrdusmärgi taga olevate sätestusele loogelised sulud koos juba sinna asetatud elementidega. Enam ei ole tegu tühja nimekirjaga
+                                                           // vaid loendiga, kus on kolm elementi.
+
+    // Kolmas tekitusviis:
+    List<int> arvuNimekiri3 = new List<int>(3); // Kolmas loendi tekitusviis kus muutuja instantsieerimine jääb samaks, aga tavaliste sulgude
+    // vahel, sarnaselt massiiviga, saame anda loendile esialgse suuruse. Loend ise ei oma veel andmeid, aga loendis on neli tühja elementi. Nimelt on sätestusel, peale andmetüüpi
+    // kirjeldavaid noolsulge, paar tavalisi sulge, mille sisse saab parameetrina panna loendi
+    // pikkuse. ()
+    
+    
+    
+    // -- Loendi sisemised meetodid:
+    arvuNimekiri3.Add(67); // Loendi meetod "Add()" lisab enne punkti olevale järjendile uue elemendi, element mida lisada, on Add meetodi
+    // sulgude vahel. Elementi saab lisada otse (antud juhul "67") või muutujana - näiteks ...Add(arv);
+    arvuNimekiri3.Count(); // Loendi meetod "Count()" loeb kokku, mitu elementi järjendis on, meetod tagastab täisarvu, mis vastab elementide kogusele
+    bool kasSeeArvOn = arvuNimekiri3.Contains(3); // Loendi meetod "Contains()" otsib kogu järjendi seest elementi, mis vastutab sulgude vahel olevatele parameetrile, tagastab kas true või false
+    // on leitud või ei ole. Tegemist on põhimõtteliselt foreach tsükliga, mis otsib kindlat parameetrit, töödeldes läbi kogu loendi.
+
+    arvuNimekiri3.Remove(4); // Loendi meetod "Remove()" eemaldab enne punkti olevast loendist, kindlal asukohal oleva elemendi. Sulgude vahel
+                             // on parameetriks eemaldatava elemendi asukohajärjekorranumber. 
+
 
     ////põhilised matemaatilised tehted
     //int liitmine = 1 + 1; // liitmine, kaks arvu kokku
@@ -463,6 +509,155 @@ else if (valik == "kast")
     //Console.WriteLine(tulemus);
     //// Adresseerime moodulit "Console", ning kasutame sealt funktsiooni "WriteLine" koos sulgude vahel parameetriga tulemus, et kuvada kasutajale tehte vastus.
     //// lause lõppeb lauselõpumärgiga.
+
+
+
+
+    /* meetodid */
+    // Meetodid on väljakutsutavad koodijupid. Meetodid teostavad tavaliselt mingeid funktsioone või tegevusi.
+    // Meetodid lasevad programmeerijal taaskasutada oma eelnevalt kirjutatud koodi - write once use many times.
+    // Meetodeid on kahte liiki - ühed, mis tagastavad andmeid töö tulemina, ja teised, mis ei tagasta
+    // midagi, kuid omavad siiski mingit tegevust
+
+
+    // meetofdi signatuur
+    // Meetodi signatuur koosneb mitmest kindlalt äramääratud omadusest, nendeks on:
+    // - Juurdepääsu modifikaator ütleb ära, kust ja kuidas sellele meetodile juurde pääseda saab
+    //  public - meetofd on avalik ja kättesaadav ka teistes klassides peale selle, kus meetod ise asub
+    // private - meetod saadaval ainult selles klassis, kus meetod ise asub
+    // protected - meetod saadaval ainult selles klassis, kus meetod ise asub ja kõikides klassides mille pärilus sellele klassile
+    // internal - meetod saadaval ainult selles klassis ja ainult selles failis.
+    // Tagastustüüp on modifikaator mis ütleb ära, mis tüüpi meetod tagasi annab kutsumise asukohta.
+    // Andmetüüp mida tagastada võib olla ükskõik milline liht või kombinatsioonandmetüüp, aga kui meetod ei tagasta üldse andmeid, pannakse selle asemel andmetüübiks "void".
+    // void on andmeedastustüüp, mida muutujatele anda ei saa, void on andmetüüp mida kasutatakse meetodite jms signatuurides, et näidata tagastatava andmetüübi puudumist.
+    // Tegemist on sõna otseses mõttes mitte millegagi
+    // Kaitstud sõna return ütleb, et just see, on vaja väljakutseasukohta tagastada, ning peale returni on muutuja nimi tagastatava infoga. Peale return lauset ei teostata mitte ühtegi muud meetodi sisu.
+    // Return toimib ka kui breakina
+    static void UusMeetod()
+        {
+        Console.WriteLine("Tere");
+           
+        }
+    // 2. tüüpi meetod - tagastab väärtuse
+    int[] arvutatavadArvud = new int[] { 3, 67, 420 };
+
+    public static int ArvutaKokku(int[]arvud )  //meetod, mille signatuuris on juurdepääsumodifikaator public, static ütleb et meetod kuulub siia klassi, tagastustüüp "int" ütleb, et
+                                               // programmis väljakutseasukohta tagastatakse täisarv, peale seda on meetodi nimi "ArvutaKokku" ning sulgude vahel ootab meetod täisarvumassiivi, millele pannakse meetodi sees ajutine nimi arvud.
+                                               // Peale signatuuri on koodiplokk {} tehtava koodiga.
+
+{
+
+
+    int summa = 0; // Tekitatakse täisarvuandmetüüpi muutuja nimega "summa", kuhu esialgu omistatakse arv 0.
+    foreach (int i in arvud) // foreach tsükliga käiakse kõik täisarvumassiivi "arvud" arvud läbi
+
+    {
+        summa + - = i; // ja muutujale summa lisatakse juurde, hetkel käidav element
+    }
+    return summa; // pärast tsükli töö lõppu tagastatakse return käsu abil muutuja summa sisu
+}
+//private static void Main(string[] args)
+//{
+//    NewMessage();
+//    List<string> ostunimekiri = new List<string>();
+//    Console.WriteLine("Sisesta oma tänane poeskäigunimekiri");
+//    string kasutajasisestus = "";
+//    // meetodi väljakutse
+//    GetUserInput(kasutajasisestus, ostunimekiri);
+//    Console.WriteLine("See on sinu nimekiri: \n");
+//    foreach (var söök in ostunimekiri)
+//    {
+//        Console.WriteLine($"-*- {söök}");
+//    }
+//    GetUserInput(kasutajasisestus, ostunimekiri);
+//}
+
+//static List<string> GetUserInput(string kasutajasisestus, List<string> ostunimekiri)
+//{
+//    while (kasutajasisestus == "")
+//    {
+//        Console.WriteLine("Palun järgmine ost ostunimekirja, kirjuta \"rohkem pole\" et lõpetada:");
+//        kasutajasisestus = Console.ReadLine();
+//        if (kasutajasisestus == "rohkem pole")
+//        {
+//            break;
+//        }
+//        ostunimekiri.Add(kasutajasisestus);
+//        kasutajasisestus = "";
+//    }
+//    return ostunimekiri;
+
+//}
+//// static - staatiline selles klassis
+//// private- meetod on saadaval ainult selles klassis
+//// public - meetod on saadaval ükskõik millises klassis
+//// protected - meetod on saadaval ainult seal klassis, või testes klassides mis pärib selle klassi andmed
+//// internal - on saadaval ainult iseenda sees
+//static void NewMessage()
+//{
+//    Console.WriteLine("NewMessage");
+//}
+
+    
+    private stativ void Main(string[] args)
+
+Console.WriteLine("Kas sa soovid münti visata, või täringut veeretada?");
+string müntVõiTäring = Console.ReadLine();
+
+if (müntVõiTäring == "münt")
+
+{ Console.WriteLine(müntVõiTäring(juhuarv));
+    else if (müntVõiTäring == "täring")
+} Console.WriteLine(müntVõiTäring(juhuarv));
+else
+{
+    Console.WriteLine("valikut ei ole");
+
+
+    public static string Münt(Random juhuarv)
+{
+    int mündivise = juhuarv.Next(1, 2);
+    if (mündivise == 1)
+    { return "kull"; }
+    else
+    { return "kiri"; }
+
+
+
+ public static int Täring(random juhuarv)
+{
+
+    int täringuvise = juhuarv.Next(1, 6);
+    return täringuvise;
+}
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
     //// https://github.com/Estlib/Konspekt_Jyri_Vaitmaa_IKTpe25/blob/main/Konspekt/Program.cs
 }
 
