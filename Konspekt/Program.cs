@@ -631,8 +631,23 @@ else
     return täringuvise;
 }
 
+/* Castimine */
+// Castimine on viis, kuidas ühest andmetüübist teist saada. Castimist on kahte eri liiki, automaatne ja manuaalne.
+// Automaatne castimine toimb siis, kui teisendatakse väiksemast andmetüübist suuremasse.
+// Manuaalne castimine toimub siis, kui tahetakse saada suuremast andmetüübist väiksemat
+// Castitakse nii, et teisendatava muutuja ette pannakse sulud koos soovitud andmetüübiga.
 
 
+double newdata1 = 2.22d; // tekitame või on olemas suure mahuga andmed muutujas newdata1. Tegu double andmetega
+float data1Float = (float)newdata1; // (float) teisendab double tüüpi andmed float tüüpi andmeteks.
+long data1long = (long)newdata1; // (long) teisendab double tüüpi andmed long tüüpi andmeteks.
+int data1int = (int)newdata1; // (int) teisendab double tüüpi andmed int tüüpi andmeteks.
+char data1char = (char)newdata1; // (char) teisendab double tüüpi andmed char tüüpi andmeteks.
+
+Math.Round(d); // moodulist math kutsutakse punkti abil esile meetod "round". Sulgude vahel on ümardatav arv.
+// round ümardab sulgude vahel olevas muutujas asetseva arvu, vastavalt komakohtade parameetrile.
+// Vaikeväärtusena, lähima täisarvuni. 0-4 on allapoole, 5-9 on ülespoole.
+double newpi = Math.Pi // moodulist Math.Pi kutsutakse punkti abil esile kaitstud väärtus
 
 
 
