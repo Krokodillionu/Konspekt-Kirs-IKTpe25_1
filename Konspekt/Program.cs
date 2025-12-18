@@ -375,6 +375,8 @@ else if (valik == "kast")
     // võimalikud komposiitandmetüübid
     // [] -> masiiv on komposiitandmetüüp, mille sees saab olla mitu samat tüüpi lihtadnmetüüpi. Masiivi tähistatakse kantsulgudega
     // massiive saab olla ükskõik millist lihtandmetüüpi massiive
+    // Massiivi tekitamisel tuleb ära öelda kui pikk või suur see massiiv on
+    // Massiiv saab olla koostatud ka teistest massiividest
     // Esimene tekitusviis
  int[] arvuMassiiv = new int[3]; // andmetüüp väljendab, et tegu on täisarvutüüpi andmega ja kantsulud väljendavad
     // et tegu on ühtlasi ka masiiviga, nimeks on arvumassiiv
@@ -599,10 +601,11 @@ else if (valik == "kast")
 //}
 
     
-    private stativ void Main(string[] args)
+    private static void Main(string[] args)
 
 Console.WriteLine("Kas sa soovid münti visata, või täringut veeretada?");
 string müntVõiTäring = Console.ReadLine();
+string juhuarv
 
 if (müntVõiTäring == "münt")
 
